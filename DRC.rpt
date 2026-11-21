@@ -1,0 +1,35 @@
+** Drc report for night lamp.kicad_pcb **
+** Created on 2026-11-21T15:09:43 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 6 Footprint errors **
+[missing_footprint]: Missing footprint J1 (Conn_01x02_Pin)
+    Local override; warning
+[net_conflict]: Pad net (/GND) doesn't match net given by schematic (unconnected-(Q1-E-Pad3))
+    Local override; warning
+    @(61.0000 mm, 68.2650 mm): PTH pad 3 [/GND] of Q1
+[net_conflict]: Pad net (/VCC) doesn't match net given by schematic (unconnected-(R1-Pad1))
+    Local override; warning
+    @(54.0000 mm, 51.2250 mm): PTH pad 1 [/VCC] of R1
+[net_conflict]: Pad net (/GND) doesn't match net given by schematic (unconnected-(Q1-E-Pad3))
+    Local override; warning
+    @(54.5000 mm, 89.1000 mm): PTH pad 2 [/GND] of R2
+[net_conflict]: Pad net (/VCC) doesn't match net given by schematic (unconnected-(R1-Pad1))
+    Local override; warning
+    @(71.5000 mm, 51.6450 mm): PTH pad 1 [/VCC] of R3
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(54.5000 mm, 66.7250 mm): Footprint 6V
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
